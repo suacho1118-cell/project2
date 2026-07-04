@@ -76,3 +76,13 @@ elif st.session_state.page == "celebrate":
     if st.button("돌아가기"):
         st.session_state.page = "main"
         st.rerun()
+
+st.markdown("""
+<style>
+div.stButton > button {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc;
+}
+</style>
+""", unsafe_allow_html=True)
