@@ -77,6 +77,18 @@ elif st.session_state.page == "celebrate":
         st.session_state.page = "main"
         st.rerun()
 
+import streamlit as st
+
+st.markdown("""
+<style>
+div.stButton > button {
+    color: black !important;   /* 글씨 색 */
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.button("나도 인사하기")
+
 st.markdown("""
 <style>
 div.stButton > button {
