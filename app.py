@@ -16,7 +16,7 @@ st.markdown("""
 
 /* 모든 글씨 흰색 */
 h1, h2, h3, p, div, span, label {
-    color: white !important;
+    color: black !important;
 }
 
 /* 버튼 스타일 */
